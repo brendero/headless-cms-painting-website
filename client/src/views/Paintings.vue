@@ -37,4 +37,11 @@ export default {
   grid-gap: 20px;
   width: 100%;
 }
+@media only screen and (max-width: 700px) {
+  .image-grid {
+    grid-template-columns: auto;
+    width: 95%;
+    margin: auto;
+  }
+}
 </style>
