@@ -9,5 +9,6 @@ git clone https://github.com/brendero/headless-cms-painting-website.git
 # Install the node_modules
 npm install
 # start the devserver
+cd ./client
 npm run serve
 ```
