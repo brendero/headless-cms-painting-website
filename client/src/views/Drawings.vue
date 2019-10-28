@@ -1,6 +1,6 @@
 <template>
   <div class="image-grid">
-    <GridItem v-for="drawing in drawings" v-bind:key="drawing.name" :image="drawing.image"/>
+    <GridItem v-for="drawing in drawings" v-bind:key="drawing.name" :item="drawing"/>
   </div>
 </template>
 
