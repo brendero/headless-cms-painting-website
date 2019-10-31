@@ -31,6 +31,7 @@ export default {
 <style>
   .modal-mask {
     position: fixed;
+    z-index: 2;
     top: 0%;
     left: 0%;
     width: 100%;
@@ -85,8 +86,16 @@ export default {
     transform: rotate(-45deg);
   }
   @media only screen and (max-width: 700px) {
+    .modal-mask {
+      padding: 7%;
+    }
+    .close {
+      margin-left: 8vw;
+    }
     .modal-content {
       flex-direction: column;
+      overflow: scroll;
+      height: 90vh;
     }
     .modal-image {
       width: 100%;

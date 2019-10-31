@@ -50,7 +50,7 @@ html {
   color: #2c3e50;
 }
 .main-wrapper {
-  margin: 0 2%;
+  /* margin: 0 2%; */
   margin-top: 80px;
 }
 </style>

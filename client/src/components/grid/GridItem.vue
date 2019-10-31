@@ -38,4 +38,7 @@ export default {
   height: auto;
   object-fit: cover;
 }
+.grid-item > img:hover {
+  opacity: 0.7;
+}
 </style>

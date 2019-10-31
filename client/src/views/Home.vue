@@ -25,18 +25,21 @@ export default {
 <style>
   .homepage-header {
     background: black;
+    box-shadow: -2px 23px 32px rgba(0,0,0,0.3);
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
   .header-text {
+    margin-top: 4vw;
     text-align: center;
   }
   .text-main {
     color: #166FE3;
     font-family: "Open Sans";
-    font-weight: 300
+    font-weight: 300;
+    font-size: 1.1vw;
   }
   .text-divider {
     background: white;
@@ -49,7 +52,20 @@ export default {
     margin: 0;
   }
   .header-image {
-    width: 15%;
+    width: 18%;
     justify-self: center;
+    position: relative;
+    top: 6vw;
+  }
+  @media only screen and (max-width: 700px) {
+    .text-main {
+      font-size: 6vw;
+    }
+    .text-secondary {
+      font-size: 15vw;
+    }
+    .header-image {
+      width: 90%;
+    }
   }
 </style>

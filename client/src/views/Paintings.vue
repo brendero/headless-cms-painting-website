@@ -32,10 +32,11 @@ export default {
 
 <style>
 .image-grid {
+  margin: 0 2%;
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 20px;
-  width: 100%;
+  width: 96%;
 }
 @media only screen and (max-width: 700px) {
   .image-grid {

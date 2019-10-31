@@ -47,6 +47,11 @@
 
 <script>
 export default {
+  watch: {
+    '$route' () {
+      this.menuToggled = false
+    }
+  },
   name: 'Navigation',
   data: () => {
     return {
@@ -60,6 +65,7 @@ export default {
   .main-nav {
     position: fixed;
     top: 0;
+    z-index: 1;
     width: 100%;
     background: white;
     display: flex;
