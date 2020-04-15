@@ -22,6 +22,9 @@
         <router-link to="/biography">Biografie</router-link>
       </li>
       <li>
+        <router-link to="/agenda">Agenda</router-link>
+      </li>
+      <li>
         <router-link to="/contact">Contact</router-link>
       </li>
     </ul>
@@ -37,6 +40,9 @@
       </li>
       <li>
         <router-link to="/biography">Biografie</router-link>
+      </li>
+      <li>
+        <router-link to="/agenda">Agenda</router-link>
       </li>
       <li>
         <router-link to="/contact">Contact</router-link>
@@ -87,7 +93,7 @@ export default {
     padding: 5px 10px;
     text-decoration: none;
     color: black;
-    font-family: "Open Sans";
+    font-family: "Roboto";
     font-weight: bold;
     font-size: 12px;
   }

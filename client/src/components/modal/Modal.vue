@@ -10,7 +10,7 @@
           </div>
           <div class="modal-text">
             <h1>{{ name }}</h1>
-            <p>{{ content }}</p>
+            <div class="description" v-html="content"></div>
           </div>
         </div>
     </div>
@@ -58,13 +58,17 @@ export default {
   .modal-text > h1 {
     font-family: "Playfair Display";
   }
-  .modal-text > p {
-    font-family: "Open Sans";
+  .modal-text > .description { 
+    margin: 3vw 1vw;
+  }
+  .modal-text > .description > p {
+    font-family: "Roboto";
+    color: rgba(0,0,0,0.5)
   }
   .close {
     opacity: 0.3;
     position: relative;
-    font-family: "Open Sans";
+    font-family: "Roboto";
   }
   .close:hover {
     opacity: 1;

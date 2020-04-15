@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import Paintings from './views/Paintings.vue'
 import Drawings from './views/Drawings.vue'
 import Biography from './views/Biography.vue'
+import Agenda from './views/Agenda.vue'
 import Contact from './views/Contact.vue'
 
 Vue.use(VueRouter)
@@ -13,6 +14,7 @@ const routes = [
   { path: '/paintings', component: Paintings},
   { path: '/drawings', component: Drawings},
   { path: '/biography', component: Biography},
+  { path: '/agenda', component: Agenda },
   { path: '/contact', component: Contact}
 ]
 

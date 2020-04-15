@@ -19,15 +19,22 @@ export default {
 </script>
 
 <style>
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
 @font-face {
-  font-family: "Open Sans";
-  src: url("./assets/fonts/Open_Sans/OpenSans-Bold.ttf");
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto/Roboto-Bold.ttf");
   font-weight: bold;
 }
 @font-face {
-  font-family: "Open Sans";
-  src: url("./assets/fonts/Open_Sans/OpenSans-SemiBold.ttf");
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto/Roboto-Medium.ttf");
   font-weight: 300;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: 100;
 }
 @font-face {
   font-family: "Playfair Display";

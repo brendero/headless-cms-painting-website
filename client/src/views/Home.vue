@@ -16,7 +16,7 @@ export default {
   name: 'Home',
   data: () => {
     return {
-      image: "https://koenderoeck.weebly.com/uploads/1/0/9/8/109819924/p253.jpeg"
+      image: "https://koenderoeck.weebly.com/uploads/1/0/9/8/109819924/img-5049_orig.jpg"
     }
   }
 }
@@ -37,7 +37,7 @@ export default {
   }
   .text-main {
     color: #166FE3;
-    font-family: "Open Sans";
+    font-family: "Roboto";
     font-weight: 300;
     font-size: 1.1vw;
   }
