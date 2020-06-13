@@ -14,6 +14,6 @@ app.get('/', (request, response) => {
 // app.get('/login';
 
 app.listen(portNumber, () => {
-	console.log(`Express web server started: http://${host}:${portNumber}`);
+	console.log(`Express web server started: ${portNumber}`);
 	console.log(`Serving content from /${sourceDir}/`);
 });
