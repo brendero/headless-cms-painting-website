@@ -3,7 +3,6 @@ const epf = require('express-php-fpm').default;
 const path = require('path');
 const app = express();
 const portNumber = process.env.PORT || 3500;
-const host = process.env.host || '127.0.0.1';
 const sourceDir = 'dist';
 
 app.use(express.static(sourceDir));
@@ -14,7 +13,7 @@ app.get('/', (request, response) => {
 
 // app.get('/login';
 
-app.listen(portNumber, host, () => {
+app.listen(portNumber, () => {
 	console.log(`Express web server started: http://${host}:${portNumber}`);
 	console.log(`Serving content from /${sourceDir}/`);
 });
