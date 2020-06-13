@@ -1,9 +1,20 @@
 {
-    "name": "client",
-    "version": "0.1.0",
-    "private": true,
-    "scripts": {
-      "start": "cd client && npm run deploy-production"
-    }
-  }
-  
+  "name": "koenderoeckpaintings",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "cd client && npm run deploy-production"
+  },
+  "description": "> Development repository for promotional website using Vue and drupal > Author: Brent De Roeck",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brendero/headless-cms-painting-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brendero/headless-cms-painting-website/issues"
+  },
+  "homepage": "https://github.com/brendero/headless-cms-painting-website#readme"
+}
