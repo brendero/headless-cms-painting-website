@@ -4,7 +4,7 @@
       <div class="header-text">
         <p class="text-main">Koen De Roeck</p>
         <hr class="text-divider">
-        <h1 class="text-secondary">Kunstenaar</h1>
+        <h1 class="text-secondary">Schilderijen</h1>
       </div>
       <img class="header-image" :src="image"/>
     </div>

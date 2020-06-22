@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "cd client && npm run deploy-production"
+    "start": "cd client && npm run deploy-production",
+    "start-dev": "cd client && npm start"
   },
   "description": "> Development repository for promotional website using Vue and drupal > Author: Brent De Roeck",
   "main": "index.js",
