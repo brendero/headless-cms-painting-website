@@ -7,9 +7,14 @@ const sourceDir = 'dist';
 
 app.use(express.static(sourceDir));
 
+app.use((req, res, next) => {
+	res.header("Access-Control-Allow-Origin", process.env.VUE_APP_API_URL);
+})
+
 app.get('/', (request, response) => {
 	response.sendFile(path.resolve(__dirname, sourceDir, 'index.html'));
 });
+
 
 // app.get('/login';
 
