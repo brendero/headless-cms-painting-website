@@ -11,10 +11,13 @@ app.use((req, res, next) => {
 	res.header("Access-Control-Allow-Origin", process.env.VUE_APP_API_URL);
 })
 
-app.get('/', (request, response) => {
+app.get('*', (request, response) => {
 	response.sendFile(path.resolve(__dirname, sourceDir, 'index.html'));
 });
 
+app.get('/login', (req, res) => {
+	res.status(301).redirect("https://live-kdr.pantheonsite.io/login")
+})
 
 // app.get('/login';
 
