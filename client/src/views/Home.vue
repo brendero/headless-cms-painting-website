@@ -4,7 +4,6 @@
       <div class="header-text">
         <p class="text-main">Koen De Roeck</p>
         <hr class="text-divider">
-        <h1 class="text-secondary">Schilderijen</h1>
       </div>
       <img class="header-image" :src="image"/>
     </div>
@@ -39,7 +38,7 @@ export default {
     color: #166FE3;
     font-family: "Roboto";
     font-weight: 300;
-    font-size: 1.1vw;
+    font-size: 1.5vw;
   }
   .text-divider {
     background: white;
