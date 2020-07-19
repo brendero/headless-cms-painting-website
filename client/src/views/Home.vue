@@ -11,11 +11,13 @@
 </template>
 
 <script>
+const homeImage = require("../assets/img/FullSizeRender.jpeg");
+
 export default {
   name: 'Home',
   data: () => {
     return {
-      image: "https://koenderoeck.weebly.com/uploads/1/0/9/8/109819924/img-5049_orig.jpg"
+      image: homeImage
     }
   }
 }
