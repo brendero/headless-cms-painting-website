@@ -19,7 +19,7 @@ export default {
     }
   },
   mounted() {
-      axios.get(`${process.env.VUE_APP_API_URL}/rest_drawings`, {})
+      axios.get(`${process.env.VUE_APP_API_URL}/rest_drawings?per_page=100`, {})
       .then(({data}) => {
         this.drawings = 
               data.map(painting => ({
